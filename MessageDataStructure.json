@@ -1,0 +1,97 @@
+{
+    "end_device_ids": {
+        "device_id": "ob103",
+        "application_ids": {
+            "application_id": "digitaltechlab-atd"
+        },
+        "dev_eui": "A81758FFFE0600FB",
+        "join_eui": "0000000000000001",
+        "dev_addr": "260B18A2"
+    },
+    "correlation_ids": [
+        "as:up:01G5DZ06YBPWH6KKCCTBDZN204",
+        "gs:conn:01G3R43NPBG5GN05QNZBYJ5WC4",
+        "gs:up:host:01G3R43PBSPXW57VH8KRGQJK50",
+        "gs:uplink:01G5DZ06QQA8702D80H6P3KW02",
+        "ns:uplink:01G5DZ06QX7E3NZ0EC9WD83438",
+        "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01G5DZ06QXM59DYZFM0772TPR0",
+        "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01G5DZ06YBM9Z8002NMH3D2FV9"
+    ],
+    "received_at": "2022-06-13T07:21:11.371738928Z",
+    "uplink_message": {
+        "session_key_id": "AYDXP6CsOYQVE3yhrGOMEQ==",
+        "f_port": 5,
+        "f_cnt": 7421,
+        "frm_payload": "AQDJAjEHDj4=",
+        "decoded_payload": {
+            "humidity": 49,
+            "temperature": 20.1,
+            "vdd": 3646
+        },
+        "rx_metadata": [
+            {
+                "gateway_ids": {
+                    "gateway_id": "iot-stadslab-1",
+                    "eui": "A84041FFFF1F9951"
+                },
+                "time": "2022-06-13T07:22:05.297Z",
+                "timestamp": 2030449099,
+                "rssi": -115,
+                "channel_rssi": -115,
+                "snr": 1.8,
+                "location": {
+                    "latitude": 51.69522207692182,
+                    "longitude": 5.293667793175701,
+                    "altitude": 15,
+                    "source": "SOURCE_REGISTRY"
+                },
+                "uplink_token": "ChwKGgoOaW90LXN0YWRzbGFiLTESCKhAQf//H5lREMvjmMgHGgsI58qblQYQ+62DTCD4gcqBjMybAyoMCJ3Lm5UGEMC4z40B"
+            },
+            {
+                "gateway_ids": {
+                    "gateway_id": "skylab-has-solar-5223",
+                    "eui": "24E124FFFEF2487C"
+                },
+                "time": "2022-06-13T07:21:10.131Z",
+                "timestamp": 1302391216,
+                "rssi": -93,
+                "channel_rssi": -93,
+                "snr": 13.8,
+                "frequency_offset": "12367",
+                "location": {
+                    "latitude": 51.68711,
+                    "longitude": 5.28544,
+                    "altitude": 39,
+                    "source": "SOURCE_REGISTRY"
+                },
+                "uplink_token": "CiMKIQoVc2t5bGFiLWhhcy1zb2xhci01MjIzEggk4ST//vJIfBCw04PtBBoLCOfKm5UGEJCI5WAggK/D5PPTRCoLCObKm5UGEMDNuz4="
+            }
+        ],
+        "settings": {
+            "data_rate": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreading_factor": 7
+                }
+            },
+            "coding_rate": "4/5",
+            "frequency": "868100000",
+            "timestamp": 2030449099,
+            "time": "2022-06-13T07:22:05.297Z"
+        },
+        "received_at": "2022-06-13T07:21:11.165297465Z",
+        "consumed_airtime": "0.056576s",
+        "network_ids": {
+            "net_id": "000013",
+            "tenant_id": "ttn",
+            "cluster_id": "eu1",
+            "cluster_address": "eu1.cloud.thethings.network"
+        }
+    },
+    "id": "9e5abe9c-c6ad-4c87-90bb-352890597f09",
+    "_rid": "S6BrALI87iEBAAAAAAAAAA==",
+    "_self": "dbs/S6BrAA==/colls/S6BrALI87iE=/docs/S6BrALI87iEBAAAAAAAAAA==/",
+    "_etag": "\"6e042f54-0000-0d00-0000-62a6e56e0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1655104878
+}
