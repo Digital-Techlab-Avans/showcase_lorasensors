@@ -1,8 +1,9 @@
 # showcase_lorasensors
 
+Quick info (TODO: make better readme :D )
 Demo NodeJS app, with example datastructure.
 
-using the https://www.thethingsnetwork.org/ for sensor registration.
+Using the https://www.thethingsnetwork.org/ for sensor registration.
 Account holders: Martijn Schuurmans / Stefan van Dockum
 
 Current locations sensors:
@@ -19,7 +20,7 @@ OB107-rechts
 OG102
 OG104
 OG106
-OG017 (typo..sorry)
+OG017 (OG107..typo..sorry)
 OG118
 
 Install:
@@ -32,3 +33,6 @@ Install:
 
 4. npm start
 
+The database key is readonly.
+
+If you create something cool with the data please contact Stefan van Dockum (s.vandockum@avans.nl) so we can add it to the showcase on https://dtechlab.avans.nl 
